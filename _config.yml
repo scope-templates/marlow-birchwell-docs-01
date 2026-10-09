@@ -1,0 +1,15 @@
+title: Marlow Maps and Birchwell Billing developer docs
+theme: minima
+plugins:
+  - jekyll-relative-links
+  - jekyll-sitemap
+relative_links:
+  enabled: true
+  collections: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - LICENSE
